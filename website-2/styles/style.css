@@ -8,7 +8,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 /* -Header section start--------- 
----------------------------------*/
+  ---------------------------------*/
 .hero_section {
   background-color: rgba(0, 0, 0, 0.932);
   width: 85%;
@@ -47,7 +47,7 @@ body {
   height: 486px;
 }
 /* -Header section end--------- 
----------------------------------*/
+  ---------------------------------*/
 
 /* Main section start!--------- */
 /* ------------------------------------ */
@@ -96,9 +96,23 @@ body {
 }
 .card {
   width: 290px;
-  height: 362px;
+  height: 242px;
   border: 1px solid lightgray;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card_image {
+  display: flex;
+  width: 252px;
+  height: 56.18px;
+
+  justify-content: space-evenly;
+}
+.card_image p {
+  padding: 20px;
 }
 .card_image img {
   width: 290px;
@@ -114,6 +128,11 @@ body {
 }
 .card_text {
   font-size: 15px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+.card_text p {
+  margin-top: 10px;
 }
 .card_footer {
   display: flex;
@@ -121,20 +140,12 @@ body {
   gap: 30px;
   margin-top: 20px;
 }
-.card_time img {
-  width: 24px;
-  height: 24px;
-}
-.card_time,
-.card_cmnt {
-  display: flex;
-  gap: 15px;
-}
+
 /* Main section end-------------------
---------------------------- */
+  --------------------------- */
 
 /* footer section start--------
---------------------------- */
+  --------------------------- */
 .footer_section {
   width: 100%;
   height: 300px;
