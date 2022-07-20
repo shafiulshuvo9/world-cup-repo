@@ -163,8 +163,8 @@ hr {
 .footer_container {
   padding: 40px;
 }
-<<<<<<< HEAD
 /* ------------------------------------ */
+
 /* Tablet Media Query Design */
 /* ------------------------------------- */
 @media screen and (max-width: 992px) {
@@ -228,7 +228,3 @@ hr {
     margin-left: 15%;
   }
 }
-=======
-/* footer section end--------
---------------------------- */
->>>>>>> f496f42ad7e2d09fb9f64e40546aed785ed403c9
